@@ -1,0 +1,32 @@
+
+
+  #current-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .thumbnails {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .thumbnail-images {
+    display: flex;
+    overflow: hidden;
+  }
+  .thumbnail-images img{
+    border-radius: 5%;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .thumbnail:hover {
+    border: 2px solid #03c3ec;
+  }
+  
+  
